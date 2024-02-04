@@ -4,25 +4,23 @@
 # include <iostream>
 # include <mpi.h>
 
-#define TAG_TASK 1
-#define TAG_RESULT 2
+class IProcess;
 
-class MasterSlaveSystem 
-{
-	public:
-		MasterSlaveSystem(int argc, char** argv);
-		~MasterSlaveSystem();
 
-		void run();
+class MasterSlaveSystem {
+public:
+    MasterSlaveSystem(int argc, char** argv);
+    ~MasterSlaveSystem();
 
-	private:
-		void masterProcess();
-		void slaveProcess();
+    void run();
 
-	private:
-		int rank;
-		int size;
-		const int N = 100;
+private:
+    int rank;
+    int size;
+    const int N;
+    IProcess* process;
+
+    void createProcess();
 };
 
 
