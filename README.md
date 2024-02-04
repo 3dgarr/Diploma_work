@@ -10,11 +10,11 @@ The master process distributes tasks to slave processes, collects their results,
 ## Compilation
 
 ```bash
-mpic++ main.cpp -o mpi_master_slave
+make
 ```
 ## Execution
 ```bash
-mpirun -np 4 ./mpi_master_slave 
+mpirun -np 4 ./mpi_master_slave.exe
 ```
 
 - **mpirun**:   This command is used to launch MPI applications.
