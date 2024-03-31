@@ -13,6 +13,10 @@ int main(int argc, char* argv[])
         return 1;
     }
 
+		std::cout << "----------------------" << std::endl;
+		std::cout << "|Open MP  Word Search|" << std::endl;
+		std::cout << "----------------------\n" << std::endl;
+
     std::string file_name = argv[1];
     int num_threads = std::atoi(argv[2]);
 

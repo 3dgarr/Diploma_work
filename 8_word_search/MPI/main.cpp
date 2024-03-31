@@ -5,7 +5,13 @@
 #include <mpi.h>
 #include "ParallelWordCounter.hpp"
 
-int main(int argc, char* argv[]) {
+int main(int argc, char* argv[]) 
+{
+
+	// std::cout << "----------------------" << std::endl;
+	// std::cout << "|Open MPI Word Search|" << std::endl;
+	// std::cout << "----------------------\n" << std::endl;
+
     MPI_Init(&argc, &argv);
 
     int rank;
@@ -30,6 +36,11 @@ int main(int argc, char* argv[]) {
     double t2 = MPI_Wtime();
 
     if (rank == 0) {
+
+		std::cout << "----------------------" << std::endl;
+		std::cout << "|Open MPI Word Search|" << std::endl;
+		std::cout << "----------------------\n" << std::endl;
+
         for (size_t i = 0; i < words.size(); i++)
             std::cout << words[i] << ": " << counts[i] << std::endl;
         std::cout << std::endl;
