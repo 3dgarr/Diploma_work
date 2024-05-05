@@ -1,0 +1,4 @@
+#!/bin/bash
+gcc -fopenmp pi_calculation.c -o pi_calculation.o
+
+echo "Usage: $ ./pi_calculation.o intervals num_threads"
