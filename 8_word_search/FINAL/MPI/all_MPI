@@ -1,0 +1,256 @@
+mpirun -np 1 ./search words/words1.txt
+----------------------
+|Open MPI Word Search|
+----------------------
+
+the: 13230
+around: 5292
+graphics: 5292
+from: 5292
+by: 2646
+be: 7938
+any: 7938
+mount: 5292
+hello: 5292
+
+Time: 21.3894ms
+mpirun -np 2 ./search words/words1.txt
+----------------------
+|Open MPI Word Search|
+----------------------
+
+the: 13230
+around: 5292
+graphics: 5292
+from: 5292
+by: 2646
+be: 7938
+any: 7938
+mount: 5292
+hello: 0
+
+Time: 12.6948ms
+mpirun -np 3 ./search words/words1.txt
+----------------------
+|Open MPI Word Search|
+----------------------
+
+the: 13230
+around: 5292
+graphics: 5292
+from: 5292
+by: 2646
+be: 7938
+any: 7938
+mount: 5292
+hello: 5292
+
+Time: 8.10595ms
+mpirun -np 4 ./search words/words1.txt
+----------------------
+|Open MPI Word Search|
+----------------------
+
+the: 13230
+around: 5292
+graphics: 5292
+from: 5292
+by: 2646
+be: 7938
+any: 7938
+mount: 5292
+hello: 0
+
+Time: 12.1024ms
+mpirun -np 1 ./search words/words2.txt
+----------------------
+|Open MPI Word Search|
+----------------------
+
+the: 39690
+around: 15876
+graphics: 15876
+from: 15876
+by: 7938
+be: 23814
+any: 23814
+mount: 15876
+hello: 15876
+
+Time: 64.7505ms
+mpirun -np 2 ./search words/words2.txt
+----------------------
+|Open MPI Word Search|
+----------------------
+
+the: 39690
+around: 15876
+graphics: 15876
+from: 15876
+by: 7938
+be: 23814
+any: 23814
+mount: 15876
+hello: 0
+
+Time: 35.9136ms
+mpirun -np 3 ./search words/words2.txt
+----------------------
+|Open MPI Word Search|
+----------------------
+
+the: 39690
+around: 15876
+graphics: 15876
+from: 15876
+by: 7938
+be: 23814
+any: 23814
+mount: 15876
+hello: 15876
+
+Time: 24.1004ms
+mpirun -np 4 ./search words/words2.txt
+----------------------
+|Open MPI Word Search|
+----------------------
+
+the: 39690
+around: 15876
+graphics: 15876
+from: 15876
+by: 7938
+be: 23814
+any: 23814
+mount: 15876
+hello: 0
+
+Time: 34.8459ms
+mpirun -np 1 ./search words/words3.txt
+----------------------
+|Open MPI Word Search|
+----------------------
+
+the: 66150
+around: 26460
+graphics: 26460
+from: 26460
+by: 13230
+be: 39690
+any: 39690
+mount: 26460
+hello: 26460
+
+Time: 106.482ms
+mpirun -np 2 ./search words/words3.txt
+----------------------
+|Open MPI Word Search|
+----------------------
+
+the: 66150
+around: 26460
+graphics: 26460
+from: 26460
+by: 13230
+be: 39690
+any: 39690
+mount: 26460
+hello: 0
+
+Time: 73.4438ms
+mpirun -np 3 ./search words/words3.txt
+----------------------
+|Open MPI Word Search|
+----------------------
+
+the: 66150
+around: 26460
+graphics: 26460
+from: 26460
+by: 13230
+be: 39690
+any: 39690
+mount: 26460
+hello: 26460
+
+Time: 64.6524ms
+mpirun -np 4 ./search words/words3.txt
+----------------------
+|Open MPI Word Search|
+----------------------
+
+the: 66150
+around: 26460
+graphics: 26460
+from: 26460
+by: 13230
+be: 39690
+any: 39690
+mount: 26460
+hello: 0
+
+Time: 55.917ms
+mpirun -np 1 ./search words/words4.txt
+----------------------
+|Open MPI Word Search|
+----------------------
+
+the: 211680
+around: 84672
+graphics: 84672
+from: 84672
+by: 42336
+be: 127008
+any: 127008
+mount: 84672
+hello: 84672
+
+Time: 341.502ms
+mpirun -np 2 ./search words/words4.txt
+----------------------
+|Open MPI Word Search|
+----------------------
+
+the: 211680
+around: 84672
+graphics: 84672
+from: 84672
+by: 42336
+be: 127008
+any: 127008
+mount: 84672
+hello: 0
+
+Time: 191.657ms
+mpirun -np 3 ./search words/words4.txt
+----------------------
+|Open MPI Word Search|
+----------------------
+
+the: 211680
+around: 84672
+graphics: 84672
+from: 84672
+by: 42336
+be: 127008
+any: 127008
+mount: 84672
+hello: 84672
+
+Time: 158.261ms
+mpirun -np 4 ./search words/words4.txt
+----------------------
+|Open MPI Word Search|
+----------------------
+
+the: 211680
+around: 84672
+graphics: 84672
+from: 84672
+by: 42336
+be: 127008
+any: 127008
+mount: 84672
+hello: 0
+
+Time: 140.865ms

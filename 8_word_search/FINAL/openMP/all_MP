@@ -1,0 +1,272 @@
+./search words/words1.txt 1
+----------------------
+|Open MP  Word Search|
+----------------------
+
+the: 13230
+around: 5292
+graphics: 5292
+from: 5292
+by: 2646
+be: 7938
+any: 7938
+mount: 5292
+hello: 5292
+word: 5292
+
+Time: 27.8734ms
+./search words/words1.txt 2
+----------------------
+|Open MP  Word Search|
+----------------------
+
+the: 13230
+around: 5292
+graphics: 5292
+from: 5292
+by: 2646
+be: 7938
+any: 7938
+mount: 5292
+hello: 5292
+word: 5292
+
+Time: 14.3048ms
+./search words/words1.txt 3
+----------------------
+|Open MP  Word Search|
+----------------------
+
+the: 13230
+around: 5292
+graphics: 5292
+from: 5292
+by: 2646
+be: 7938
+any: 7938
+mount: 5292
+hello: 5292
+word: 5292
+
+Time: 12.1947ms
+./search words/words1.txt 4
+----------------------
+|Open MP  Word Search|
+----------------------
+
+the: 13230
+around: 5292
+graphics: 5292
+from: 5292
+by: 2646
+be: 7938
+any: 7938
+mount: 5292
+hello: 5292
+word: 5292
+
+Time: 13.7762ms
+./search words/words2.txt 1
+----------------------
+|Open MP  Word Search|
+----------------------
+
+the: 39690
+around: 15876
+graphics: 15876
+from: 15876
+by: 7938
+be: 23814
+any: 23814
+mount: 15876
+hello: 15876
+word: 15876
+
+Time: 80.3526ms
+./search words/words2.txt 2
+----------------------
+|Open MP  Word Search|
+----------------------
+
+the: 39690
+around: 15876
+graphics: 15876
+from: 15876
+by: 7938
+be: 23814
+any: 23814
+mount: 15876
+hello: 15876
+word: 15876
+
+Time: 40.5041ms
+./search words/words2.txt 3
+----------------------
+|Open MP  Word Search|
+----------------------
+
+the: 39690
+around: 15876
+graphics: 15876
+from: 15876
+by: 7938
+be: 23814
+any: 23814
+mount: 15876
+hello: 15876
+word: 15876
+
+Time: 34.7061ms
+./search words/words2.txt 4
+----------------------
+|Open MP  Word Search|
+----------------------
+
+the: 39690
+around: 15876
+graphics: 15876
+from: 15876
+by: 7938
+be: 23814
+any: 23814
+mount: 15876
+hello: 15876
+word: 15876
+
+Time: 24.3903ms
+./search words/words3.txt 1
+----------------------
+|Open MP  Word Search|
+----------------------
+
+the: 66150
+around: 26460
+graphics: 26460
+from: 26460
+by: 13230
+be: 39690
+any: 39690
+mount: 26460
+hello: 26460
+word: 26460
+
+Time: 128.211ms
+./search words/words3.txt 2
+----------------------
+|Open MP  Word Search|
+----------------------
+
+the: 66150
+around: 26460
+graphics: 26460
+from: 26460
+by: 13230
+be: 39690
+any: 39690
+mount: 26460
+hello: 26460
+word: 26460
+
+Time: 63.4288ms
+./search words/words3.txt 3
+----------------------
+|Open MP  Word Search|
+----------------------
+
+the: 66150
+around: 26460
+graphics: 26460
+from: 26460
+by: 13230
+be: 39690
+any: 39690
+mount: 26460
+hello: 26460
+word: 26460
+
+Time: 55.6207ms
+./search words/words3.txt 4
+----------------------
+|Open MP  Word Search|
+----------------------
+
+the: 66150
+around: 26460
+graphics: 26460
+from: 26460
+by: 13230
+be: 39690
+any: 39690
+mount: 26460
+hello: 26460
+word: 26460
+
+Time: 44.2585ms
+./search words/words4.txt 1
+----------------------
+|Open MP  Word Search|
+----------------------
+
+the: 211680
+around: 84672
+graphics: 84672
+from: 84672
+by: 42336
+be: 127008
+any: 127008
+mount: 84672
+hello: 84672
+word: 84672
+
+Time: 399.318ms
+./search words/words4.txt 2
+----------------------
+|Open MP  Word Search|
+----------------------
+
+the: 211680
+around: 84672
+graphics: 84672
+from: 84672
+by: 42336
+be: 127008
+any: 127008
+mount: 84672
+hello: 84672
+word: 84672
+
+Time: 204.892ms
+./search words/words4.txt 3
+----------------------
+|Open MP  Word Search|
+----------------------
+
+the: 211680
+around: 84672
+graphics: 84672
+from: 84672
+by: 42336
+be: 127008
+any: 127008
+mount: 84672
+hello: 84672
+word: 84672
+
+Time: 179.452ms
+./search words/words4.txt 4
+----------------------
+|Open MP  Word Search|
+----------------------
+
+the: 211680
+around: 84672
+graphics: 84672
+from: 84672
+by: 42336
+be: 127008
+any: 127008
+mount: 84672
+hello: 84672
+word: 84672
+
+Time: 140.161ms
